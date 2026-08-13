@@ -1,10 +1,18 @@
 body {
-    background-color:lightblue;
+    background-color:rgb(173, 173, 230);
 }
 
 h3 {
     position: relative;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:20px;
+    margin-top:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(147, 8, 147);
+}
+
+h3:hover{
+    width:10px;
+    height:10px;
 }
 
 .myDiv {
@@ -12,13 +20,13 @@ h3 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:xx-large;
     font-weight:bold;
-    color:darkblue;
+    color:rgb(81, 0, 81);
     animation:moveIt .75s ease forwards;
 
 }
 
 @keyframes moveIt{
-    0%{transform:translate(0);}
+    0%{transform:translate(10px,10px);}
     100%{transform:translate(20px, 20px);}
 }
 
