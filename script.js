@@ -1,4 +1,4 @@
-const box = document.getElementById('myDiv');
+const box = document.getElementsByClassName('myDiv');
 
 box.addEventListener("mouseover", () => {
     box.classList.toggle('animate');

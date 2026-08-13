@@ -12,10 +12,12 @@ h3 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#myDiv {
+.myDiv {
+    width:150px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:xx-large;
     font-weight:bold;
+    color:darkblue;
 }
 
 @keyframes moveIt{
@@ -28,11 +30,6 @@ h3 {
     100%{transform:translate(0, 0);}
 }
 
-#myDiv.animate{
-    animation:moveIt 1s ease-in-out forwards;
-}
-
-#myDiv.anim{
-    animation:swag 1s ease-in-out forwards;
-
+.myDiv{
+    animation:moveIt .75s ease forwards;
 }
