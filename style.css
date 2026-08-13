@@ -1,3 +1,7 @@
+body {
+    background-color:lightblue;
+}
+
 h1 {
     position:relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,5 +10,29 @@ h1 {
 h3 {
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:blue;
+}
+
+#myDiv {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight:bold;
+}
+
+@keyframes moveIt{
+    0%{transform:translate(0);}
+    100%{transform:translate(20px, 20px);}
+}
+
+@keyframes swag{
+    0%{transform:translate(20px,20px);}
+    100%{transform:translate(0, 0);}
+}
+
+#myDiv.animate{
+    animation:moveIt 1s ease-in-out forwards;
+}
+
+#myDiv.anim{
+    animation:swag 1s ease-in-out forwards;
+
 }
